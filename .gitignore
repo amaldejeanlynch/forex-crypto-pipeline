@@ -20,9 +20,3 @@ Thumbs.db
 
 # Logs
 *.log
-
-# Data
-data/raw/
-data/processed/
-*.csv
-*.parquet
