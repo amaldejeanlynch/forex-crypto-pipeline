@@ -15,14 +15,6 @@ def main():
     print("\n1. Initializing OANDA API...")
     api = OandaAPI()
 
-    # Step 2: Test the connection
-    print("\n2. Testing connection...")
-    if api.test_connection():
-        print("✅ Connection successful!")
-    else:
-        print("❌ Connection failed!")
-        return
-
     # Create data directory if it doesn't exist
     os.makedirs('data', exist_ok=True)
 
